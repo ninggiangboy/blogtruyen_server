@@ -1,4 +1,4 @@
-package dev.ngb.blogtruyen.config;
+package dev.ngb.blogtruyen.filter;
 
 import dev.ngb.blogtruyen.config.property.CorsProperties;
 import jakarta.servlet.FilterChain;
@@ -18,7 +18,7 @@ public class CORSFilter extends OncePerRequestFilter {
     private final Map<String, String> corsHeader;
 
     public CORSFilter(CorsProperties corsProperties) {
-        this.corsHeader = corsProperties.getHeaders();
+        this.corsHeader = corsProperties.headers();
     }
 
     @Override
