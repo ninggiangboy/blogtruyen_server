@@ -11,7 +11,7 @@
     "database.dbname": "blogtruyen",
     "topic.prefix": "db",
     "schema.include.list": "public",
-    "table.include.list": "blogs.articles",
+    "table.include.list": "public.mangas",
     "publication.autocreate.mode": "filtered"
   }
 }
