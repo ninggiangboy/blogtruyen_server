@@ -68,3 +68,6 @@ cloud:
 springdoc:
   api-docs:
     path: /api-docs
+elasticsearch:
+  host: ${ES_HOST}
+  port: ${ES_PORT}
