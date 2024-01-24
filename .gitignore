@@ -1,8 +1,8 @@
 .env
 data/geo_data/**
-logging
-pgdata
-redisdata
+logging/
+pgdata/
+redisdata/
 
 HELP.md
 target/
